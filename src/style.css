@@ -1,9 +1,9 @@
 body {
+  font-family: "Roboto", sans-serif;
   padding: 90px;
   background: linear-gradient(to top, #d3dec3 0%, #b9d7c6 100%);
 }
 .content {
-  font-family: tahoma;
   display: block;
   margin: 0 auto;
   background: #ece3ca;
