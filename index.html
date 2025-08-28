@@ -3,37 +3,45 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
+    <link rel="stylesheet" href="src/style.css" />
     <title>The weather outside is..</title>
   </head>
   <body>
-    <header>
-      <form>
-        <input type="search" placeholder="Enter a city.." required />
-        <input type="submit" value="Search" />
-      </form>
-    </header>
-    <main>
-      <div>
-        <h1>Miami</h1>
-        <p>
-          Tuesday 2:10pm, scattered clouds <br />
-          Humidity: 66%, Wind 3 km/h
-        </p>
-      </div>
-      <div>☀️ 96°F</div>
-    </main>
+    <div class="content">
+      <header>
+        <form>
+          <input
+            type="search"
+            placeholder="Enter a city.."
+            class="search-box"
+            required
+          />
+          <input type="submit" value="Search" class="search-button" />
+        </form>
+      </header>
+      <main>
+        <div>
+          <h1>Miami</h1>
+          <p>
+            Tuesday 2:10pm, scattered clouds <br />
+            Humidity: 66%, Wind 3 km/h
+          </p>
+        </div>
+        <div>☀️ 96°F</div>
+      </main>
 
-    <footer>
-      This app was built by
-      <a href="https://github.com/htm-ellie" target="_blank"> Ellie Litt </a>
-      , is open-sourced on
-      <a href="https://github.com/htm-ellie/real-weather-app" target="_blank">
-        GitHub</a
-      >
-      and hosted on
-      <a href="https://weatheroutsideis.netlify.app/" target="_blank">Netlify</a
-      >.
-    </footer>
+      <footer>
+        This app was built by
+        <a href="https://github.com/htm-ellie" target="_blank"> Ellie Litt </a>
+        , is open-sourced on
+        <a href="https://github.com/htm-ellie/real-weather-app" target="_blank">
+          GitHub</a
+        >
+        and hosted on
+        <a href="https://weatheroutsideis.netlify.app/" target="_blank"
+          >Netlify</a
+        >.
+      </footer>
+    </div>
   </body>
 </html>
