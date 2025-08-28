@@ -39,3 +39,30 @@ body {
   background: rgba(213, 148, 87);
   transition: ease-in-out 200ms;
 }
+h1 {
+  color: #100a04;
+}
+p {
+  color: #623d18;
+}
+.current-weather {
+  display: flex;
+  justify-content: space-between;
+}
+.current-temp {
+  margin: 45px 0;
+}
+.current-temp-emoji {
+  position: relative;
+  top: -15px;
+  font-size: 30px;
+}
+.current-temp-number {
+  font-size: 80px;
+  font-weight: bold;
+}
+.current-temp-unit {
+  font-size: 28px;
+  position: relative;
+  top: -40px;
+}

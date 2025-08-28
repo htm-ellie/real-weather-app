@@ -4,9 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="src/style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
     <title>The weather outside is..</title>
   </head>
   <body>
@@ -25,12 +28,16 @@
       <main>
         <div>
           <h1>Miami</h1>
-          <p>
+          <p class="current-weather">
             Tuesday 2:10pm, scattered clouds <br />
             Humidity: 66%, Wind 3 km/h
           </p>
         </div>
-        <div>☀️ 96°F</div>
+        <div class="current-temp">
+          <span class="current-temp-emoji">☀️</span>
+          <span class="current-temp-number">96</span>
+          <span class="current-temp-unit">°F</span>
+        </div>
       </main>
 
       <footer>
