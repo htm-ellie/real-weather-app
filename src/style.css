@@ -1,7 +1,12 @@
 body {
   font-family: "Roboto", sans-serif;
   padding: 90px;
-  background: linear-gradient(to top, #d3dec3 0%, #b9d7c6 100%);
+  background: linear-gradient(
+    109.6deg,
+    rgba(185, 215, 198, 0.87) 11.2%,
+    rgba(211, 222, 195, 0.73) 91.2%
+  );
+  /* linear-gradient(to top, #d3dec3 0%, #b9d7c6 100%); */
 }
 .content {
   display: block;
