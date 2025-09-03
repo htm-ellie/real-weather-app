@@ -26,23 +26,26 @@
         </form>
       </header>
       <main>
-        <div>
-          <h1>Miami</h1>
-          <p class="current-weather">
-            Tuesday 2:10pm, scattered clouds <br />
-            Humidity: 66%, Wind 3 km/h
-          </p>
-        </div>
-        <div class="current-temp">
-          <span class="current-temp-emoji">☀️</span>
-          <span class="current-temp-number">96</span>
-          <span class="current-temp-unit">°F</span>
+        <div class="current-weather">
+          <div>
+            <h1 class="current-city" id="current-city">Miami</h1>
+            <p class="current-details">
+              <span id="current-date">Tuesday 2:10pm</span>, scattered clouds
+              <br />
+              Humidity: <strong>66%</strong>, Wind <strong>3 km/h</strong>
+            </p>
+          </div>
+          <div class="current-temperature">
+            <span class="current-temperature-icon">☀️</span>
+            <span class="current-temperature-value">96</span>
+            <span class="current-temperature-unit">°F</span>
+          </div>
         </div>
       </main>
 
       <footer>
         This app was built by
-        <a href="https://github.com/htm-ellie" target="_blank"> Ellie Litt </a>
+        <a href="https://github.com/htm-ellie" target="_blank"> Ellie Litt</a>
         , is open-sourced on
         <a href="https://github.com/htm-ellie/real-weather-app" target="_blank">
           GitHub</a
@@ -53,5 +56,6 @@
         >.
       </footer>
     </div>
+    <script src="src/index.js"></script>
   </body>
 </html>

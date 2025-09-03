@@ -6,15 +6,24 @@ body {
 .content {
   display: block;
   margin: 0 auto;
-  background: #ece3ca;
+  background: #f2efe6;
   border-radius: 10px;
   padding: 20px;
   max-width: 600px;
-  box-shadow: 10px 10px 20px rgba(213, 148, 87, 0.3);
+  box-shadow: 10px 10px 20px rgba(220, 159, 43, 0.3);
+}
+
+header {
+  border-bottom: 1px solid #98ad9f;
+  padding-bottom: 30px;
+}
+a {
+  color: #6c7c72;
 }
 .search-box {
-  background: #eec499;
+  background: #d3dec3;
   opacity: 0.5;
+  padding: 20px;
   border: none;
   border-radius: 10px;
   color: #100a04;
@@ -25,8 +34,8 @@ body {
   width: 50%;
 }
 .search-button {
-  background: #eec499;
-  color: #100a04;
+  background: #d3dec3;
+  color: #6c7c72;
   border-radius: 10px;
   border: none;
   font-size: 16px;
@@ -36,11 +45,14 @@ body {
 }
 .search-button:hover {
   cursor: pointer;
-  background: rgba(213, 148, 87);
+  background: #b9d7c6;
   transition: ease-in-out 200ms;
 }
+main {
+  padding: 30px 0;
+}
 h1 {
-  color: #100a04;
+  color: #6c7c72;
 }
 p {
   color: #623d18;
@@ -49,20 +61,50 @@ p {
   display: flex;
   justify-content: space-between;
 }
-.current-temp {
-  margin: 45px 0;
+.current-temperature {
+  font-size: 48px;
 }
-.current-temp-emoji {
+
+.current-city {
+  font-size: 38px;
+  font-weight: 900;
+  margin: 0;
+}
+.current-details {
+  color: rgba(39, 33, 66, 0.4);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.current-details strong {
+  color: #6c7c72;
+}
+
+.current-temperature-icon {
   position: relative;
-  top: -15px;
-  font-size: 30px;
+  top: -8px;
+  font-size: 50px;
+  margin-right: 10px;
 }
-.current-temp-number {
+
+.current-temperature-value {
   font-size: 80px;
   font-weight: bold;
+  color: #6c7c72;
 }
-.current-temp-unit {
+
+.current-temperature-unit {
   font-size: 28px;
   position: relative;
-  top: -40px;
+  top: -38px;
+  color: #6c7c72;
+}
+
+footer {
+  border-top: 1px solid #98ad9f;
+  text-align: center;
+  padding-top: 15px;
+
+  color: rgba(39, 33, 66, 0.4);
 }
