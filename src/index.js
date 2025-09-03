@@ -9,8 +9,10 @@ function refreshWeather(response) {
   let timeElement = document.querySelector("#current-date");
   let date = new Date(response.data.time * 1000);
 
-  cityElement.innerHTML = response.data.city;
+  let iconElement = document.querySelector("#icon");
+  icon.innerHTML = `<img src="${response.data.condition.icon_url}" class="current-temperature-icon"/> `;
 
+  cityElement.innerHTML = response.data.city;
   timeElement.innerHTML = formatDate(date);
   descriptionElement.innerHTML = response.data.condition.description;
   humidityElement.innerHTML = `${response.data.temperature.humidity}%`;

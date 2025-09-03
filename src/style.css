@@ -68,6 +68,8 @@ p {
 }
 .current-temperature {
   font-size: 48px;
+  position: relative;
+  bottom: 100px;
 }
 
 .current-city {
@@ -88,13 +90,14 @@ p {
 
 .current-temperature-icon {
   position: relative;
-  top: -8px;
-  font-size: 50px;
+  right: 100px;
+  top: 105px;
+  font-size: 60px;
   margin-right: 10px;
 }
 
 .current-temperature-value {
-  font-size: 80px;
+  font-size: 90px;
   font-weight: bold;
   color: #6c7c72;
 }
