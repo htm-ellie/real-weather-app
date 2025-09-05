@@ -65,6 +65,7 @@ p {
 .current-weather {
   display: flex;
   justify-content: space-between;
+  max-height: 120px;
 }
 .current-temperature {
   font-size: 48px;
